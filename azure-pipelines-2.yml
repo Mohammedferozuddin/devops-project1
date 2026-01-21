@@ -11,6 +11,7 @@ steps:
     containerRegistry: 'dockerhub-connection'
     repository: 'ferozuddin/nginx-demo'
     command: 'buildAndPush'
-    Dockerfile: '**/Dockerfile'
+    Dockerfile: 'app/Dockerfile'
+'
     tags: |
       latest
