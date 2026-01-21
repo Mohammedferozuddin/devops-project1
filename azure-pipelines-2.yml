@@ -12,6 +12,5 @@ steps:
     repository: 'ferozuddin/nginx-demo'
     command: 'buildAndPush'
     Dockerfile: 'app/Dockerfile'
-'
     tags: |
       latest
